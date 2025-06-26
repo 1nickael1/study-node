@@ -1,0 +1,10 @@
+/node/*/node_modules
+/node/*/dist
+/node/*/build
+/node/*/coverage
+/node/*/logs
+/node/*/temp
+/node/*/test-results
+/node/*/test-results.xml
+/node/*/test-results.xml
+/node/*/db.sqlite

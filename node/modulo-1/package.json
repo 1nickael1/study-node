@@ -1,0 +1,29 @@
+{
+  "name": "modulo-1",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "tsx watch src/server.ts",
+    "lint": "eslint src --ext .ts --fix",
+    "knex": "node --no-warnings --import tsx ./node_modules/.bin/knex"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "description": "",
+  "dependencies": {
+    "fastify": "^5.4.0",
+    "knex": "^3.1.0",
+    "sqlite3": "^5.1.7",
+    "typescript": "^5.8.3"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3.3.1",
+    "@eslint/js": "^9.29.0",
+    "@types/node": "^24.0.3",
+    "eslint": "^9.29.0",
+    "tsx": "^4.20.3"
+  }
+}
